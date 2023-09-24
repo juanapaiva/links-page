@@ -50,10 +50,15 @@ body {
   border-radius: 50%;
 }
 
-#profile p {
+#profile h1 {
+  font-size: 18px;
   font-weight: 500;
   line-height: 24px;
-  margin-top: 8px;
+  margin: 8px 0;
+}
+
+#profile p {
+  font-size: 14px;
 }
 
 #switch {
