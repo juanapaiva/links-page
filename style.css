@@ -31,10 +31,12 @@ body * {
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 400px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -116,6 +118,7 @@ ul li a {
   padding: 16px 24px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   text-decoration: none;
   font-weight: 500;
