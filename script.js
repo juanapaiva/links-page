@@ -1,19 +1,19 @@
 function toggleMode() {
   const html = document.documentElement
-  html.classList.toggle('light')
+  html.classList.toggle("light")
 
-  const img = document.querySelector('#profile img')
-  if (html.classList.contains('light')) {
-    img.setAttribute('src', './assets/avatar-light.png')
+  const img = document.querySelector("#profile img")
+  if (html.classList.contains("light")) {
+    img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute(
-      'alt',
-      'Foto de Juana, usando brinco de estrla prateado, cabelo solto e fundo escuro.'
+      "alt",
+      "Foto de Juana, usando brinco de estrela prateado, cabelo solto e fundo escuro."
     )
   } else {
-    img.setAttribute('src', './assets/avatar.png')
+    img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute(
-      'alt',
-      'Foto de Juana sorrindo, usando cabelo solto e fundo claro.'
+      "alt",
+      "Foto de Juana sorrindo, usando cabelo solto e fundo claro."
     )
   }
 }
